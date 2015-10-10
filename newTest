@@ -1,0 +1,6 @@
+if [ ! -f ./tests ]; then
+    touch tests
+    fi
+echo "${1}" >> tests
+touch "${1}".in
+touch "${1}".out
