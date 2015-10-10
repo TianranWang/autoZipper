@@ -1,0 +1,6 @@
+CurrentPath="`pwd | rev | cut -d '/' -f 1 | rev `"
+if [ -f ${CurrentPath}.zip ]
+    then
+    rm ${CurrentPath}.zip
+    fi
+zip ${CurrentPath}.zip *

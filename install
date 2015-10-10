@@ -1,0 +1,5 @@
+if [ ! -d $HOME/bin ]; then
+    mkdir $HOME/bin
+    fi
+mv ./bundle $HOME/bin
+PATH=$PATH:$HOME/bin
