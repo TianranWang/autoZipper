@@ -2,5 +2,5 @@ if [ ! -d $HOME/bin ]; then
     mkdir $HOME/bin
     fi
 mv ./bundle $HOME/bin
-mv ./newTest $HOME/bin
+mv ./newtest $HOME/bin
 PATH=$PATH:$HOME/bin
