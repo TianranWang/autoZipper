@@ -1,4 +1,4 @@
-suiteName=suiteq2.txt
+suiteName=suite.txt
 
 if [ ! -f {suiteName} ]; then
     touch ${suiteName}
