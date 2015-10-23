@@ -1,13 +1,8 @@
-suiteName=suite.txt
-if [ -f *.txt ];then
-    suiteName=*.txt
-fi
+suiteName=suiteq2.txt
+
 if [ ! -f {suiteName} ]; then
     touch ${suiteName}
     fi
 echo "${1}" >> ${suiteName}
 touch "${1}".in
 touch "${1}".out
-if [ ${2} = "a" ]; then
-    touch "${1}.arg"
-fi
