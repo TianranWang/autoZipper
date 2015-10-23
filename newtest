@@ -1,6 +1,9 @@
-suiteName=suite.txt
+suiteName=suiteq*.txt
 
 if [ ! -f {suiteName} ]; then
+    echo "please enter your suite file name."
+    echo "it should begin with suiteq with .txt extension name"
+    read suiteName
     touch ${suiteName}
     fi
 echo "${1}" >> ${suiteName}
